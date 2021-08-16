@@ -3,6 +3,6 @@
     height: 44px;
     display: flex;
     position: relative;
-    overflow: hidden;
+    flex-direction: row;
     margin: 34px auto 0;
 }

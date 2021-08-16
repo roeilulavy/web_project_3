@@ -1,0 +1,10 @@
+.places__paragraph{
+    font-size: 18px;
+    line-height: 29px;
+    color: #FFFFFF;
+    margin: 0 0 25px 0;
+}
+
+.places__paragraph:nth-child(2){
+    margin-top: 50px;
+}

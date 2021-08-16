@@ -1,0 +1,8 @@
+.footer{
+    width: 1184px;
+    height: 18px;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    margin: 92px 48px 24px;
+}

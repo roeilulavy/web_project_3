@@ -1,0 +1,10 @@
+.places__place__two-columns{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.places__place__two-columns:nth-child(2){
+    margin: 0 0 0 40px;
+}

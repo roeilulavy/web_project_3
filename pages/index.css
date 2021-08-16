@@ -29,17 +29,26 @@
 
 /*-- places --*/
 @import url('../blocks/places/places.css');
+@import url('../blocks/places/__place/places__place.css');
+@import url('../blocks/places/__two-columns/places__place__two-columns.css');
 @import url('../blocks/places/__title/places__title.css');
 @import url('../blocks/places/__image/places__image.css');
-@import url('../blocks/places/__website/website.css');
+@import url('../blocks/places/__website/places__website.css');
 @import url('../blocks/places/__website/_url-heading/places__website_url-heading.css');
-@import url('../blocks/places/__website/_link/places__website_link.css');
+@import url('../blocks/places/__website/_link/places__website__link.css');
 @import url('../blocks/places/__paragraph/places__paragraph.css');
 
 /*-- cover --*/
+@import url('../blocks/cover/cover.css');
+@import url('../blocks/cover/__title/cover__title.css');
+@import url('../blocks/cover/__subtitle/cover__subtitle.css');
+@import url('../blocks/cover/__background/cover__background.css');
+@import url('../blocks/cover/__overlay/cover__overlay.css');
 
 /*-- footer --*/
-
+@import url('../blocks/footer/footer.css');
+@import url('../blocks/footer/__link/footer__link.css');
+@import url('../blocks/footer/__copyright/footer__copyright.css');
 
 *{
     border: solid 1px red;

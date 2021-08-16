@@ -1,0 +1,6 @@
+.places__place{
+    width: 984px;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+}
