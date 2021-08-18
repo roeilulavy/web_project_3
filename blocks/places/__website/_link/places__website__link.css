@@ -1,7 +1,8 @@
 .places__website__link{
-    margin: 4px 0 0;
     font-size: 18px;
     line-height: 22px;
     font-weight: normal;
     color: #FFFFFF;
+    padding: 0;
+    margin: 4px 0 0;
 }

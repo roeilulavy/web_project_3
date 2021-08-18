@@ -4,5 +4,6 @@
     display: flex;
     position: relative;
     flex-direction: row;
-    margin: 34px auto 0;
+    justify-content: flex-end;
+    margin: 34px 148px 0;
 }

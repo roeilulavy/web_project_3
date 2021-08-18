@@ -1,8 +1,9 @@
 .places{
     width: 984px;
-    display: flex;
-    flex-direction: column;
-    position: relative;
+    display: grid;
     margin: 92px 148px 0;
-    padding: 0;
+    grid-template-columns: repeat(1);
+    grid-template-rows: repeat(5);
+    grid-gap: 80px;
+    justify-content: center;
 }

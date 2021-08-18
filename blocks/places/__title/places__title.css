@@ -1,4 +1,5 @@
 .places__title{
+    grid-area: header;
     width: 460px;
     font-size: 72px;
     line-height: 76px;

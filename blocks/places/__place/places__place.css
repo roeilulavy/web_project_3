@@ -1,6 +1,10 @@
 .places__place{
     width: 984px;
-    display: flex;
-    position: relative;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-template-rows: repeat(2);
+    justify-content: center;
+    grid-template-areas:
+    "header website"
+    "image paragraph";
 }

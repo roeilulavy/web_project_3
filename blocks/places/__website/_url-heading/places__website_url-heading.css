@@ -1,7 +1,8 @@
 .places__website_url-heading{
-    margin: 0;
     font-size: 12px;
     line-height: 20px;
     letter-spacing: 0.2em;
     color: #AAAAAA;
+    margin: 0;
+    padding: 0;
 }

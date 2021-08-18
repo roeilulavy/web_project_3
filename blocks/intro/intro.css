@@ -1,8 +1,8 @@
 .intro{
     width: 690px;
-    height: 569px;
     display: flex;
     flex-direction: column;
     position: relative;
     margin: 92px 0 0 148px;
+    padding: 0;
 }
