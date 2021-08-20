@@ -5,6 +5,7 @@
     font-weight: normal;
     text-align: center;
     color: #FFFFFF;
-    margin: 32px auto 0;
-    z-index: 2;
+    margin-top: 2rem;
+    z-index: 1;
+    align-self: center;
 }

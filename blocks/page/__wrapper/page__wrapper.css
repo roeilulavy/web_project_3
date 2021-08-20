@@ -4,45 +4,13 @@
     margin: 0 auto;
 }
 
-@media screen and (min-width: 1184px){
-    .page__wrapper{
-        margin: 0 148px;
-    }
-    .header{
-        margin: 34px 0 0;
-    }
-    .lead{
-        margin-top: 58px;
-    }
-    .lead__image{
-        margin-top: 64px;
-    }
-    .photo-grid{
-        margin-top: 92px;
-        grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: repeat(3, 1fr);
-        grid-gap: 16px;
-    }
-}
-
 @media screen and (max-width: 1280px){
     .page__wrapper{
         margin: 0 48px;
     }
-    .header{
-        margin: 34px 0 0;
-    }
-    .lead{
-        margin-top: 50px;
-    }
-    .lead__image{
-        margin-top: 56px;
-    }
-    .photo-grid{
-        margin-top: 92px;
-        grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: repeat(3, 1fr);
-        grid-gap: 16px;
+    .cover{
+        width: 100%;
+        height: 740px;
     }
 }
 
@@ -50,42 +18,19 @@
     .page__wrapper{
         margin: 0 48px;
     }
-    .header{
-        margin: 34px 0 0;
-    }
-    .lead{
-        margin-top: 50px;
-    }
-    .lead__image{
-        margin-top: 56px;
-    }
-    .photo-grid{
-        margin-top: 92px;
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(4, 1fr);
-        grid-gap: 14px;
+    .cover{
+        width: 100%;
+        height: 640px;
     }
 }
 
 @media screen and (max-width: 768px){
     .page__wrapper{
-        margin: 0;
+        margin: 0 24px;
     }
-    .header{
-        margin: 34px 24px 0;
-    }
-    .lead{
-        margin-top: 50px;
-    }
-    .lead__image{
-        margin-top: 56px;
-        width: 100vw;
-    }
-    .photo-grid{
-        margin-top: 88px;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(6, 1fr);
-        grid-gap: 16px;
+    .cover{
+        width: 100%;
+        height: 480px;
     }
 }
 
@@ -93,19 +38,8 @@
     .page__wrapper{
         margin: 0;
     }
-    .header{
-        margin: 20px 16px 0;
-    }
-    .lead{
-        margin-top: 50px;
-    }
-    .lead__image{
-        margin-top: 40px;
-    }
-    .photo-grid{
-        margin-top: 64px;
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(12, 1fr);
-        grid-gap: 12px;
+    .cover{
+        width: 100%;
+        height: 200px;
     }
 }

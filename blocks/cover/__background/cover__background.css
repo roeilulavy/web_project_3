@@ -1,11 +1,7 @@
 .cover__background{
-    width: 1184px;
-    height: 740px;
     position: absolute;
-    background-image: url('../../../images/cover-route-66.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 0;
-    padding: 0;
+    width: 100%;
+    padding-bottom: 100%;
+    min-width: 320px;
+    min-height: 200px;
 }

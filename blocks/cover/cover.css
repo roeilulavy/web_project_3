@@ -1,9 +1,12 @@
 .cover{
-    width: 1184px;
-    height: 740px;
+    min-width: 320px;
+    min-height: 200px;
+    background-image: url(../../images/cover-route-66.jpg);
+    background-size: cover;
+    margin: 0;
+    position: relative;
     display: flex;
     flex-direction: column;
-    position: relative;
-    margin: 92px 48px 0;
-    padding: 0;
+    align-items: center;
+    text-decoration: none;
 }

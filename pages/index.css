@@ -12,7 +12,6 @@
 @import url(../blocks/header/__lang/header__lang.css);
 @import url(../blocks/header/__lang/_underlined/header__lang_underlined.css);
 
-/*----- content -----*/
 /*-- lead --*/
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/lead/__title/lead__title.css);
