@@ -6,8 +6,5 @@
     font-style: normal;
     font-weight: normal;
     color: #FFFFFF;
-}
-
-.footer__link + .footer__link {
-    margin-left: 18px;
+    margin-right: 18px;
 }

@@ -1,5 +1,5 @@
 .places{
     display: flex;
     flex-direction: column;
-    margin: 92px 148px 0;
+    align-items: center;
 }

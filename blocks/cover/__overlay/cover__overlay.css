@@ -1,10 +1,9 @@
 .cover__overlay{
-    width: 100%;
-    background: #2A2C2F;
-    opacity: 0.3;
+    background-color: #2A2C2F;
+    opacity: 0.8;
     transition: opacity ease 1s;
 }
 
 .cover__overlay:hover{
-    opacity: 0.8;
+    opacity: 0.3;
 }

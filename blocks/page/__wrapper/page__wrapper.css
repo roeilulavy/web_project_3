@@ -38,8 +38,40 @@
     .page__wrapper{
         margin: 0;
     }
+    .places{
+        margin: 64px 0 0;
+    }
+    .places__place{
+        margin: 48px 0;
+        grid-template-areas:
+        "header" 
+        "website"
+        "image" 
+        "paragraph";
+    }
+    .places__place:first-child{
+        margin: 0;
+    }
+    .places__image{
+        margin: 30px 0 0;
+    }
     .cover{
         width: 100%;
         height: 200px;
+    }
+    .footer{
+        margin: 64px 16px 24px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .footer__link-container{
+        margin: 0 0 48px;
+    }
+    .footer__link{
+        margin: 32px 0 0;
+    }
+    .footer__link:first-child{
+        margin: 0;
     }
 }
