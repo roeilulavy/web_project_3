@@ -2,21 +2,87 @@
     max-width: 1280px;
     min-width: 296px;
     margin: 0 auto;
+    font-size: 12px;
+    line-height: 12px;
 }
 
-@media screen and (max-width: 1280px){
+@media screen and (max-width: 1280px) , screen and (min-width: 1280px){
     .page__wrapper{
         margin: 0 48px;
+    }
+    .lead__title{
+        font-size: 8em;
+        line-height: 104%;
+    }
+    .lead__subtitle{
+        font-size: 30px;
+        line-height: 120%;
+    }
+    .lead__image{
+        margin: 64px 0 0;
+    }
+    .intro{
+        max-width: 690px;
+        margin: 0 0 0 100px;
+    }
+    .photo-grid__image{
+        max-width: 284px;
+        max-height: 213px;
+        margin: 0 16px 16px 0;
+    }
+    .photo-grid__image:nth-child(4n){
+        margin-right: 0;
+    }
+    .places{
+        grid-row-gap: 81px;
+    }
+    .places__place{
+        grid-template-areas:
+        "header website"
+        "image paragraph";
+    }
+    .places__title{
+        font-size: 4em;
+    }
+    .places__main-text{
+        font-size: 1em;
+    }
+    .places__image{
+        margin: 48px 0 0;
     }
     .cover{
         width: 100%;
         height: 740px;
+    }
+    .cover__title{
+        font-size: 4em;
+        line-height: 3em;
+    }
+    .cover__subtitle{
+        font-size: 1em;
+        line-height: 1em;
+    }
+    .footer{
+        margin: 92px 0 24px;
+        display: flex;
+        flex-direction: row;
+    }
+    .footer__link-container{
+        margin: 0;
+    }
+    .footer__link{
+        margin: 0 18px 0 0;
     }
 }
 
 @media screen and (max-width: 1024px){
     .page__wrapper{
         margin: 0 48px;
+    }
+    .places__place{
+        grid-template-areas:
+        "header website"
+        "image paragraph";
     }
     .cover{
         width: 100%;
@@ -27,6 +93,11 @@
 @media screen and (max-width: 768px){
     .page__wrapper{
         margin: 0 24px;
+    }
+    .places__place{
+        grid-template-areas:
+        "header website"
+        "image paragraph";
     }
     .cover{
         width: 100%;
@@ -48,9 +119,6 @@
         "website"
         "image" 
         "paragraph";
-    }
-    .places__place:first-child{
-        margin: 0;
     }
     .places__image{
         margin: 30px 0 0;

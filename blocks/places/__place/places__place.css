@@ -5,7 +5,4 @@
     grid-template-columns: repeat(2, 2fr);
     grid-template-rows: repeat(2);
     justify-content: center;
-    /* grid-template-areas:
-    "header website"
-    "image paragraph"; */
 }
