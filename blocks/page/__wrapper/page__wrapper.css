@@ -7,7 +7,7 @@
 @media screen and (max-width: 1280px) , screen and (min-width: 1280px){
     .page__wrapper{
         width: 100%;
-        margin: 0;
+        margin: 0 auto;
     }
     .header{
         max-width: 984px;
@@ -76,22 +76,25 @@
         margin: 25px 0 0;
         font-size: 18px;
         line-height: 29px;
+        max-width: 484px;
     }
     .cover{
         max-width: 1184px;
         margin: 0 48px;
     }
     .cover__title{
-        font-size: 4.5rem;
-        line-height: 106%;
+        width: 656px;
+        font-size: 72px;
+        line-height: 76px;
         margin: 283px auto 0;
     }
     .cover__subtitle{
         font-size: 18px;
-        line-height: 122%;
+        line-height: 22px;
         margin: 32px auto 283px;
     }
     .footer{
+        max-width: 928px;
         margin: 92px 48px 24px;
         display: flex;
         flex-direction: row;
@@ -176,6 +179,7 @@
         margin: 25px 0 0;
         font-size: 18px;
         line-height: 29px;
+        max-width: 456px;
     }
     .cover{
         max-width: 1024px;
@@ -275,6 +279,7 @@
         line-height: 12px;
     }
     .places__paragraph{
+        max-width: 352px;
         margin: 25px 0 0;
         font-size: 16px;
         line-height: 26px;
@@ -287,6 +292,7 @@
         font-size: 72px;
         line-height: 76px;
         margin: 153px auto 0;
+        max-width: 656px;
     }
     .cover__subtitle{
         font-size: 18px;
@@ -398,11 +404,14 @@
         font-size: 32px;
         line-height: 35px;
         margin: 51px 16px 0;
+        padding: 0;
+        max-width: 288px;
     }
     .cover__subtitle{
         font-size: 14px;
         line-height: 16px;
         margin: 16px 16px 50px;
+        max-width: 288px;
     }
     .footer{
         margin: 64px 0 24px 16px;

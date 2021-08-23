@@ -4,6 +4,8 @@
     text-decoration: none;
     background-image: url(../../../images/cover-route-66.jpg);
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: center;

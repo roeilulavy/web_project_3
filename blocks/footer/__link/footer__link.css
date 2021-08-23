@@ -5,4 +5,10 @@
     font-weight: 400;
     color: #FFFFFF;
     margin-right: 18px;
+    opacity: 1;
+    transition: 0.3s;
+}
+
+.footer__link:hover{
+    opacity: 0.8;
 }

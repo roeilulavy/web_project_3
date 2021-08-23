@@ -6,4 +6,10 @@
     color: #FFFFFF;
     padding: 0;
     margin: 4px 0 0;
+    opacity: 1;
+    transition: 0.3s;
+}
+
+.places__website_link:hover{
+    opacity: 0.8;
 }
