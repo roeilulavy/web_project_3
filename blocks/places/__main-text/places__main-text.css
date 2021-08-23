@@ -2,6 +2,5 @@
     grid-area: paragraph;
     display: flex;
     flex-direction: column;
-    margin: 48px 0 0;
     padding: 0;
 }

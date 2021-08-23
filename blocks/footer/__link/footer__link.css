@@ -1,10 +1,8 @@
 .footer__link{
     font-family: 'Inter';
-    font-size: 16px;
-    line-height: 18px;
     text-decoration: none;
     font-style: normal;
-    font-weight: normal;
+    font-weight: 400;
     color: #FFFFFF;
     margin-right: 18px;
 }

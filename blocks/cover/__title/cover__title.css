@@ -1,7 +1,7 @@
 .cover__title{
     max-width: 656px;
     min-width: 288px;
-    line-height: 76px;
+    font-family: 'Inter';
     text-align: center;
     font-weight: 900;
     color: #FFFDFD;

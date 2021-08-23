@@ -1,7 +1,7 @@
 .lead__subtitle{
+    font-family: 'Inter';
     max-width: 620px;
     min-width: 288px;
-    margin: 32px auto 0;
     font-weight: normal;
     text-align: center;
     color: #FFFFFF;
