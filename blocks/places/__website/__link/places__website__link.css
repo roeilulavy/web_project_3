@@ -1,4 +1,4 @@
-.places__website_link{
+.places__website__link{
     font-family: 'Inter';
     font-size: 18px;
     line-height: 22px;
@@ -10,6 +10,6 @@
     transition: 0.3s;
 }
 
-.places__website_link:hover{
+.places__website__link:hover{
     opacity: 0.8;
 }
