@@ -1,17 +1,18 @@
-# Project 3: From Portland to Portland
+# From Portland to Portland
+
+## This project is all about an epic bicycle journey from Portland, ME. to Portland, OR.
 
 ### Overview
-* Intro
-* Figma
-* Images
 
-**Intro**
+* Information about the jorney.
+* Some pictures of the places.
+* Information about cities and what you can find in them.
+* The **Epic!** historic route 66.
+* Usful links with maps, weather and calendar.
 
-This is a project about traveling across the US. We've made it so all the elements are displayed correctly on popular screen sizes.
+**Link to the website**
 
-**Figma**
-
-* [Link to the project on Figma](https://www.figma.com/file/AtbNbstbxWPcMqvF061V0R/Sprint-3%3A-From-Portland-to-Portland-%7C-desktop-%2B-mobile?node-id=0%3A1)
+aaaaa
 
 
-Good luck and have fun!
+Have fun!
