@@ -4,11 +4,11 @@
 
 ### Overview
 
-* Information about the jorney.
+* Information about the journey.
 * Some pictures of the places.
 * Information about cities and what you can find in them.
 * The **Epic!** historic route 66.
-* Usful links with maps, weather and calendar.
+* Useful links with maps, weather and calendar.
 
 **Link to the website**
 
