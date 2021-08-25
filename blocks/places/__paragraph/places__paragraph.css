@@ -1,7 +1,6 @@
 .places__paragraph{
-    font-family: 'Inter';
+    font-family: 'Inter-Regular';
     color: #FFFFFF;
-    font-weight: 400;
 }
 
 .places__paragraph:first-child{

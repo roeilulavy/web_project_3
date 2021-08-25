@@ -1,9 +1,8 @@
 .places__title{
     grid-area: header;
-    font-family: 'Inter';
+    font-family: 'Inter-Black';
     max-width: 460px;
     min-width: 288px;
-    font-weight: 900;
     color: #FFFFFF;
     margin: 0;
 }
