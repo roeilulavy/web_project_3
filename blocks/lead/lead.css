@@ -1,5 +1,36 @@
 .lead{
+    max-width: 984px;
+    min-width: 320px;
     display: flex;
     position: relative;
     flex-direction: column;
+    margin: 58px 148px 0;
+}
+
+@media screen and (max-width: 1280px){
+    .lead{
+        max-width: 984px;
+        margin: 58px 148px 0;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .lead{
+        max-width: 984px;
+        margin: 50px 48px 0;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .lead{
+        max-width: 768px;
+        margin: 50px 0 0;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .lead{
+        max-width: 320px;
+        margin: 50px 0 0;
+    }
 }

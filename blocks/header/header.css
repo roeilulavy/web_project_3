@@ -1,5 +1,36 @@
 .header{
+    max-width: 984px;
+    min-width: 288px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 34px 148px 0;
+}
+
+@media screen and (max-width: 1280px){
+    .header{
+        max-width: 984px;
+        margin: 34px 148px 0;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .header{
+        max-width: 928px;
+        margin: 34px 48px 0;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .header{
+        max-width: 720px;
+        margin: 34px 24px 0;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .header{
+        max-width: 288px;
+        margin: 20px 16px 0;
+    }
 }

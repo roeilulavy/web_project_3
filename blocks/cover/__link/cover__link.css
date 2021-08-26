@@ -1,4 +1,6 @@
 .cover__link{
+    max-width: 1184px;
+    min-width: 320px;
     width: 100%;
     color: #fff;
     text-decoration: none;

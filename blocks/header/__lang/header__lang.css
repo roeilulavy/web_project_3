@@ -1,8 +1,24 @@
 .header__lang{
+    font-size: 24px;
+    line-height: 28px;
     font-family: 'Inter-Regular';
     color: #FFFFFF;
 }
 
 .header__lang + .header__lang {
     margin-left: 18px;
+}
+
+@media screen and (max-width: 1280px){
+    .header__lang{
+        font-size: 24px;
+        line-height: 28px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .header__lang{
+        font-size: 18px;
+        line-height: 20px;
+    }
 }
