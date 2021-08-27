@@ -2,7 +2,6 @@
     grid-area: image;
     max-width: 460px;
     min-width: 320px;
-    width: 100%;
     padding: 0;
     margin: 0;
 }
@@ -14,13 +13,19 @@
 }
 
 @media screen and (max-width: 1024px){
-    
+    .places__image{
+        max-width: 440px;
+    }
 }
 
 @media screen and (max-width: 768px){
-    
+    .places__image{
+        max-width: 340px;
+    }
 }
 
 @media screen and (max-width: 320px){
-    
+    .places__image{
+        max-width: 320px;
+    }
 }

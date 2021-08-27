@@ -7,29 +7,33 @@
     position: relative;
     align-items: center;
     padding: 0;
-    margin: 0 auto;
+    margin: 0 148px;
 }
 
 @media screen and (max-width: 1280px){
     .places{
         grid-row-gap: 81px;
+        margin: 0 148px;
     }
 }
 
 @media screen and (max-width: 1024px){
     .places{
         grid-row-gap: 80px;
+        margin: 0 48px;
     }
 }
 
 @media screen and (max-width: 768px){
     .places{
         grid-row-gap: 73px;
+        margin: 0 24px;
     }
 }
 
 @media screen and (max-width: 320px){
     .places{
         grid-row-gap: 48px;
+        margin: 0;
     }
 }

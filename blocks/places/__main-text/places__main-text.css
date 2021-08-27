@@ -1,5 +1,7 @@
 .places__main-text{
     grid-area: paragraph;
+    max-width: 484px;
+    min-width: 288px;
     display: flex;
     flex-direction: column;
     padding: 0;
