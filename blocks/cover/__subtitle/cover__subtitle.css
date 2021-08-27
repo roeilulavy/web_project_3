@@ -9,12 +9,14 @@
     color: #FFFFFF;
     z-index: 1;
     align-self: center;
-    padding-bottom: 12px;
-    margin: 32px auto 283px;
+    /* margin: 32px auto 283px; */
+    padding: 0;
 }
 
 @media screen and (max-width: 1280px){
     .cover__subtitle{
+        width: 320px;
+        height: 66px;
         font-size: 18px;
         line-height: 22px;
         margin: 32px auto 283px;
@@ -23,6 +25,8 @@
 
 @media screen and (max-width: 1024px){
     .cover__subtitle{
+        width: 320px;
+        height: 66px;
         font-size: 18px;
         line-height: 22px;
         margin: 32px auto 233px;
@@ -31,6 +35,8 @@
 
 @media screen and (max-width: 768px){
     .cover__subtitle{
+        width: 320px;
+        height: 66px;
         font-size: 18px;
         line-height: 22px;
         margin: 32px auto 153px;
@@ -39,6 +45,8 @@
 
 @media screen and (max-width: 320px){
     .cover__subtitle{
+        width: 288px;
+        height: 48px;
         font-size: 14px;
         line-height: 16px;
         margin: 16px auto 50px;

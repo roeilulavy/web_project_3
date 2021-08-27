@@ -2,7 +2,10 @@
     max-width: 1184px;
     min-width: 320px;
     display: flex;
-    position: relative;
+    background-image: url(../../images/cover-route-66.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     margin: 0 48px;
 }
 
