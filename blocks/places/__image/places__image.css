@@ -6,3 +6,21 @@
     padding: 0;
     margin: 0;
 }
+
+@media screen and (max-width: 1280px){
+    .places__image{
+        max-width: 460px;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    
+}
+
+@media screen and (max-width: 768px){
+    
+}
+
+@media screen and (max-width: 320px){
+    
+}

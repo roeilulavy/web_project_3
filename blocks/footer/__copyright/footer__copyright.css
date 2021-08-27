@@ -2,8 +2,15 @@
     font-family: 'Inter-Regular';
     font-size: 14px;
     line-height: 16px;
-    text-align: right;
+    text-align: end;
     color: #FFFFFF;
     margin: 0;
     padding: 0;
+}
+
+@media screen and (max-width: 320px){
+    .footer__copyright{
+        margin: 48px 0 0 0;
+        text-align: start;
+    }
 }

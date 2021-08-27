@@ -1,8 +1,24 @@
 .places__title{
     grid-area: header;
+    font-size: 72px;
+    line-height: 76px;
     font-family: 'Inter-Black';
     max-width: 460px;
     min-width: 288px;
     color: #FFFFFF;
     margin: 0;
+}
+
+@media screen and (max-width: 768px){
+    .places__title{
+        font-size: 42px;
+        line-height: 46px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .places__title{
+        font-size: 32px;
+        line-height: 35px;
+    }
 }

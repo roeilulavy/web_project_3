@@ -2,7 +2,37 @@
     max-width: 984px;
     min-width: 320px;
     display: grid;
+    justify-content: center;
     grid-template-columns: repeat(2, 2fr);
     grid-template-rows: repeat(2);
-    justify-content: center;
+    grid-template-areas: 
+    "header website"
+    "image paragraph";
+    grid-column-gap: 40px;
+    grid-row-gap: 48px;
+}
+
+@media screen and (max-width: 1024px){
+    .places__place{
+        grid-column-gap: 32px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .places__place{
+        grid-column-gap: 28px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .places__place{
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(4);
+        grid-template-areas: 
+        "header"
+        "website"
+        "image"
+        "paragraph";
+        grid-row-gap: 30px;
+    }
 }

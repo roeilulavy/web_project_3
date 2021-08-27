@@ -1,5 +1,35 @@
 .places{
+    max-width: 984px;
+    min-width: 320px;
     display: flex;
     flex-direction: column;
+    grid-row-gap: 81px;
+    position: relative;
     align-items: center;
+    padding: 0;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1280px){
+    .places{
+        grid-row-gap: 81px;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .places{
+        grid-row-gap: 80px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .places{
+        grid-row-gap: 73px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .places{
+        grid-row-gap: 48px;
+    }
 }
