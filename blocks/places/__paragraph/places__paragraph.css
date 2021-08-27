@@ -1,4 +1,5 @@
 .places__paragraph{
+    max-width: 484px;
     font-size: 18px;
     line-height: 29px;
     font-family: 'Inter-Regular';

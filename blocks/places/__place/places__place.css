@@ -1,10 +1,8 @@
 .places__place{
     max-width: 984px;
-    min-width: 320px;
     display: grid;
     justify-content: center;
-    grid-template-columns: repeat(2, 2fr);
-    grid-template-rows: repeat(2);
+    grid-template-columns: repeat(2);
     grid-template-areas: 
     "header website"
     "image paragraph";
@@ -26,7 +24,7 @@
 
 @media screen and (max-width: 320px){
     .places__place{
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(1);
         grid-template-rows: repeat(4);
         grid-template-areas: 
         "header"

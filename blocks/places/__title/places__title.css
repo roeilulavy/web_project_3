@@ -4,9 +4,9 @@
     line-height: 76px;
     font-family: 'Inter-Black';
     max-width: 460px;
-    min-width: 288px;
     color: #FFFFFF;
     margin: 0;
+    padding: 0;
 }
 
 @media screen and (max-width: 768px){
@@ -20,5 +20,6 @@
     .places__title{
         font-size: 32px;
         line-height: 35px;
+        margin: 0 16px;
     }
 }

@@ -1,8 +1,34 @@
 .places__main-text{
     grid-area: paragraph;
     max-width: 484px;
-    min-width: 288px;
     display: flex;
     flex-direction: column;
+    grid-row-gap: 10px1;
     padding: 0;
+    margin: 0;
+}
+
+@media screen and (max-width: 1280px){
+    .places__main-text{
+        max-width: 484px;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .places__main-text{
+        max-width: 456px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .places__main-text{
+        max-width: 352px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .places__main-text{
+        max-width: 288px;
+        margin: 32px 16px 0;
+    }
 }

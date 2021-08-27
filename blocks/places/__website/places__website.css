@@ -1,7 +1,21 @@
 .places__website{
     grid-area: website;
+    max-width: 456px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .places__website{
+        max-width: 352px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .places__website{
+        margin: 30px 16px 0;
+    }
 }
