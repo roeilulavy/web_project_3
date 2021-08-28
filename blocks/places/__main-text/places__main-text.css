@@ -3,7 +3,7 @@
     max-width: 484px;
     display: flex;
     flex-direction: column;
-    grid-row-gap: 10px1;
+    grid-row-gap: 10px;
     padding: 0;
     margin: 0;
 }
