@@ -4,12 +4,8 @@
     line-height: 29px;
     font-family: 'Inter-Regular';
     color: #FFFFFF;
-    margin: 25px 0;
+    margin: 0 0 25px 0;
     padding: 0;
-}
-
-.places__paragraph:first-child{
-    margin-top: 0;
 }
 
 .places__paragraph:last-child{
