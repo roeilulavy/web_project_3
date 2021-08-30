@@ -1,5 +1,7 @@
 .cover__link{
     width: 100%;
+    min-height: 740px;
+    background: center / cover no-repeat url(../../../images/cover-route-66.jpg);
     color: #fff;
     text-decoration: none;
     display: flex;
@@ -27,4 +29,22 @@
 
 .cover__link:hover::before{
     opacity: 0.8;
+}
+
+@media screen and (max-width: 1024px){
+    .cover__link{
+        min-height: 640px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .cover__link{
+        min-height: 480px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .cover__link{
+        min-height: 200px;
+    }
 }

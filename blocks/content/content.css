@@ -4,18 +4,6 @@
     grid-row-gap: 92px;
 }
 
-@media screen and (max-width: 1280px){
-    .content{
-        grid-row-gap: 92px;
-    }
-}
-
-@media screen and (max-width: 1024px){
-    .content{
-        grid-row-gap: 92px;
-    }
-}
-
 @media screen and (max-width: 768px){
     .content{
         grid-row-gap: 88px;

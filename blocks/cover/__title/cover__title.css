@@ -3,27 +3,16 @@
     min-width: 288px;
     font-size: 72px;
     line-height: 76px;
-    font-family: 'Inter-Black';
+    font-family: 'Inter-Black', Arial, sans-serif;
     text-align: center;
     color: #FFFDFD;
     z-index: 1;
-    margin: 283px auto 0;
+    margin: 0 auto;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 520px){
     .cover__title{
-        max-width: 656px;
-        font-size: 72px;
-        line-height: 76px;
-        margin: 152px auto 0;
-    }
-}
-
-@media screen and (max-width: 320px){
-    .cover__title{
-        max-width: 288px;
         font-size: 32px;
         line-height: 35px;
-        margin: 51px auto 0;
     }
 }

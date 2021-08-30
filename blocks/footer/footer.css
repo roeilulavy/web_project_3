@@ -6,25 +6,13 @@
     margin: 92px 48px 24px;
 }
 
-@media screen and (max-width: 1280px){
-    .footer{
-        margin: 92px 48px 24px;
-    }
-}
-
-@media screen and (max-width: 1024px){
-    .footer{
-        margin: 48px 48px 24px;
-    }
-}
-
 @media screen and (max-width: 768px){
     .footer{
         margin: 88px 24px 24px;
     }
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 420px){
     .footer{
         flex-direction: column;
         max-width: 165px;

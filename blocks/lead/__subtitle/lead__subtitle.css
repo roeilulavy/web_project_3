@@ -3,40 +3,19 @@
     min-width: 288px;
     font-size: 30px;
     line-height: 36px;
-    font-family: 'Inter-Regular';
+    font-family: 'Inter-Regular', Arial, sans-serif;
     text-align: center;
     color: #FFFFFF;
     margin: 32px auto 64px;
 }
 
-@media screen and (max-width: 1280px){
-    .lead__subtitle{
-        max-width: 620px;
-        font-size: 30px;
-        line-height: 36px;
-        margin: 32px auto 64px;
-    }
-}
-
 @media screen and (max-width: 1024px){
     .lead__subtitle{
-        max-width: 620px;
-        font-size: 30px;
-        line-height: 36px;
         margin: 32px auto 56px;
     }
 }
 
-@media screen and (max-width: 768px){
-    .lead__subtitle{
-        max-width: 620px;
-        font-size: 30px;
-        line-height: 36px;
-        margin: 32px auto 56px;
-    }
-}
-
-@media screen and (max-width: 320px){
+@media screen and (max-width: 680px){
     .lead__subtitle{
         max-width: 288px;
         font-size: 16px;

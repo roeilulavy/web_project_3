@@ -2,7 +2,7 @@
     max-width: 984px;
     display: grid;
     justify-content: center;
-    grid-template-columns: repeat(2);
+    grid-template-columns: 2;
     grid-template-areas: 
     "header website"
     "image paragraph";
@@ -22,10 +22,10 @@
     }
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 640px){
     .places__place{
-        grid-template-columns: repeat(1);
-        grid-template-rows: repeat(4);
+        grid-template-columns: 1;
+        grid-template-rows: 4;
         grid-template-areas: 
         "header"
         "website"

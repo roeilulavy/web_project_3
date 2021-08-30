@@ -10,13 +10,6 @@
     margin: 0 148px;
 }
 
-@media screen and (max-width: 1280px){
-    .places{
-        grid-row-gap: 81px;
-        margin: 0 148px;
-    }
-}
-
 @media screen and (max-width: 1024px){
     .places{
         grid-row-gap: 80px;

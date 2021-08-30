@@ -1,7 +1,13 @@
 .intro__subtitle{
-    font-family: 'Inter-Regular';
+    font-family: 'Inter-Regular', Arial, sans-serif;
     font-size: 24px;
     line-height: 34px;
     color: #FFFFFF;
     margin: 40px 0 0;
+}
+
+@media screen and (max-width: 540px){
+    .intro__subtitle{
+        line-height: 30px;
+    }
 }
