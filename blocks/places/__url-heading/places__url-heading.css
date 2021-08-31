@@ -2,7 +2,7 @@
     font-family: 'Inter-Medium', Arial, sans-serif;
     text-transform: uppercase;
     font-size: 12px;
-    line-height: 12px;
+    line-height: 20px;
     letter-spacing: 0.2em;
     color: #AAAAAA;
     margin: 0 0 4px;
@@ -11,6 +11,7 @@
 
 @media screen and (max-width: 768px) {
     .places__url-heading{
+        line-height: 12px;
         margin: 0 0 12px;
     }
 }
